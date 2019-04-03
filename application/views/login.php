@@ -58,7 +58,7 @@
 							</div>
 									
 						<?php } ?>
-						<form class="row login_form" action="<?php echo site_url('Login/check')?>" method="post" id="contactForm" novalidate="novalidate">
+						<form class="row login_form" action="<?php echo site_url('Login/ceklogin')?>" method="post" id="contactForm" novalidate="novalidate">
 							<div class="col-md-12 form-group">
 								<input type="email" class="form-control" id="name" name="email" placeholder="Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email'">
 							</div>
@@ -72,7 +72,7 @@
 								</div>
 							</div>
 							<div class="col-md-12 form-group">
-								<button type="submit" value="submit" class="primary-btn">Log In</button>
+								<button type="submit" value="submit" class="primary-btn"name="login">Log In</button>
                                 <a href="#">Forgot Password?</a>
                                 <a href="<?php echo base_url('Login/register');?>">Belum punya akun ? <strong class="logina">Daftar disni</strong></a>
 							</div>

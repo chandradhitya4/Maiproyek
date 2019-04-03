@@ -54,7 +54,7 @@
 				      </div>
 				      <nav id="nav-menu-container">
 				        <ul class="nav-menu">
-				          <li class="btn"><a href="#">Untuk Dosen</a></li>
+				          <li class="btn"><a href="<?php echo base_url('Login/indexd');?>">Untuk Dosen</a></li>
 				          <li class=" btn btn-outline-success" style="color:#ffffff;"><a href="<?php echo base_url('Login/register');?>">Daftar</a></li>
 									<li class="btn btn-success" style="color:#fffff;"><a href="<?php echo base_url('Login/index');?>">Masuk</a></li>
 									
