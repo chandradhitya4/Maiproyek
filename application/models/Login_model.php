@@ -21,6 +21,17 @@ class login_model extends CI_Model {
     {
         return $this->db->insert($table,$data);
     }
+    public function getLoginData($u,$p)
+    {
+        $this->db->where(array('email',$u));
+        $this->db->where(array('password',$p));
+        return $this->db->get('users')->row();
+
+
+
+
+
+    }
 }
 
 
