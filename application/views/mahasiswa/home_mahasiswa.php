@@ -106,7 +106,7 @@
               </div>
 
               <div class="ml-auto d-flex">
-                <a href="job-single.html" class="btn btn-primary py-2 mr-1">Apply</a>
+                <a href="<?php echo site_url('Mahasiswa/Home_mahasiswa/detailProyek')?>" class="btn btn-primary py-2 mr-1">Apply</a>
               </div>
             </div>
           </div><!-- end -->

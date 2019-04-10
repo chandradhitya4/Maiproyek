@@ -6,4 +6,8 @@ class Home_mahasiswa extends CI_Controller {
 	{
 		$this->load->view('mahasiswa/home_mahasiswa');
 	}
+	public function detailProyek()
+	{
+		$this->load->view('mahasiswa/detail_proyek');
+	}
 }

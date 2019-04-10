@@ -6,4 +6,8 @@ class Home_dosen extends CI_Controller {
 	{
 		$this->load->view('dosen/home_dosen');
 	}
+	public function buatProyek()
+	{
+		$this->load->view('dosen/buat_proyek');
+	}
 }

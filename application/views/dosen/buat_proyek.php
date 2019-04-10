@@ -47,7 +47,7 @@ legend { font-size: 20pt; font-style:inherit; font-family: facifio }
 </head>
 
 <body>
-        <p><img src="logohijau.png" width="300" height="100"></p>
+        <p><img src="<?php echo base_url().'asset/img/logo.png" width="300" height="100"'?>></p>
     <center>
     <div class="BuatProyek">
             
@@ -62,6 +62,54 @@ legend { font-size: 20pt; font-style:inherit; font-family: facifio }
                 <tr></tr>
                 <tr>
                     <td><input type="text" name="inputNama" id="nama" class="teks"></td>
+                </tr>
+
+                </tr>
+                <tr>
+                    <td>Universitas</td>
+                </tr>
+
+                <tr>
+                    <td>Fakultas</td>
+                </tr>
+                <tr></tr>
+                <tr></tr>
+                <tr>
+                    <td><select class="kelas" id="pilihan">
+                        <option>Pilih fakultas</option>
+                        <option>FTE</option>
+                        <option>FRI</option>
+                        <option>FIF</option>
+                        <option>FEB</option>
+                        <option>FKB</option>
+                        <option>FIK</option>
+                        <option>FIT</option>            
+                        </select>
+                  
+                </tr>
+
+                <tr>
+                    <td>Jurusan</td>
+                </tr>
+                <tr></tr>
+                <tr></tr>
+                <tr>
+                    <td><select class="kelas" id="pilihan">
+                        <option>Pilih fakultas</option>
+                        <option>S1 Teknik Elektro</option>
+                        <option>S1 Teknik Telekomunikasi</option>
+                        <option>S1 Teknik Fisika</option>
+                        <option>S1 Sistem Komputer</option>
+                        <option>S2 Teknik Elektro</option>
+                        <option>S1 Teknik Industri</option>
+                        <option>S1 </option>            
+                        </select>
+                  
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td><input type="text" name="inputUniv" id="masukanUniv" class="teks"></td>
+                
                 </tr>
 
                 <tr>
@@ -82,6 +130,7 @@ legend { font-size: 20pt; font-style:inherit; font-family: facifio }
                     <td><input type="text" name="inputBidang" id="masukanBidang" class="teks"></td>
                 
                 </tr>
+                
                 <tr></tr>
                 <tr>
                         <td>Keahlian Yang Dibutuhkan</td>
