@@ -17,7 +17,7 @@
     cursor: pointer;
     width: 500px;
 }
-
+fieldset {color: #03A678}
 .teks{
     width: 300px;
     height: 30px;
@@ -68,6 +68,9 @@ legend { font-size: 20pt; font-style:inherit; font-family: facifio }
                 <tr>
                     <td>Universitas</td>
                 </tr>
+                <tr>
+                    <td><input type="text" name="inputUniv" id="masukanUniv" class="teks"></td>
+                </tr>
 
                 <tr>
                     <td>Fakultas</td>
@@ -102,23 +105,20 @@ legend { font-size: 20pt; font-style:inherit; font-family: facifio }
                         <option>S1 Sistem Komputer</option>
                         <option>S2 Teknik Elektro</option>
                         <option>S1 Teknik Industri</option>
-                        <option>S1 </option>            
+                        <option>S1 Sistem Informasi</option>        
+                        <option>S2 Teknik Industri</option>      
                         </select>
                   
                 </tr>
                 <tr></tr>
-                <tr>
-                    <td><input type="text" name="inputUniv" id="masukanUniv" class="teks"></td>
                 
-                </tr>
-
                 <tr>
                     <td>Deskripsi Proyek</td>
                 </tr>
 
         
                 <tr>
-                    <td><textarea cols="39" rows="5" name="textDeskripsi" id="Deskripsi"></textarea></td>
+                    <td><textarea cols="39" rows="7" name="textDeskripsi" id="Deskripsi"></textarea></td>
                 
                 </tr>
                 <tr>
