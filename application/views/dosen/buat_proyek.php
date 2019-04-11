@@ -38,7 +38,7 @@ div {
 
 
 
-legend { font-size: 20pt; font-style:inherit; font-family: facifio }
+legend { font-size: 20pt; font-style:inherit; font-family: facifio; border-color: white}
         </style>
 
 <title>Membuat Proyek</title>
@@ -75,7 +75,7 @@ legend { font-size: 20pt; font-style:inherit; font-family: facifio }
                 <tr>
                     <td>Fakultas</td>
                 </tr>
-                <tr></tr>
+               
                 <tr></tr>
                 <tr>
                     <td><select class="kelas" id="pilihan">
@@ -94,7 +94,7 @@ legend { font-size: 20pt; font-style:inherit; font-family: facifio }
                 <tr>
                     <td>Jurusan</td>
                 </tr>
-                <tr></tr>
+               
                 <tr></tr>
                 <tr>
                     <td><select class="kelas" id="pilihan">
@@ -106,7 +106,14 @@ legend { font-size: 20pt; font-style:inherit; font-family: facifio }
                         <option>S2 Teknik Elektro</option>
                         <option>S1 Teknik Industri</option>
                         <option>S1 Sistem Informasi</option>        
-                        <option>S2 Teknik Industri</option>      
+                        <option>S2 Teknik Industri</option>
+                        <option>S1 Rekayasa Perangkat Lunak</option>
+                        <option>S1 Infromatika</option>
+                        <option>S2 Teknologi Informasi</option>
+                        <option>S2 Informatika</option>
+
+
+
                         </select>
                   
                 </tr>
@@ -127,7 +134,7 @@ legend { font-size: 20pt; font-style:inherit; font-family: facifio }
 
                 <tr></tr>
                 <tr>
-                    <td><input type="text" name="inputBidang" id="masukanBidang" class="teks"></td>
+                    <td><textarea cols="39" rows="3" name="inputDeskripsi" id="masukanDeskripsi"></textarea></td>
                 
                 </tr>
                 
@@ -137,14 +144,15 @@ legend { font-size: 20pt; font-style:inherit; font-family: facifio }
                     </tr>
                     <tr></tr>
                     <tr>
-                        <td><input type="text" name="inputKeahlian" id="masukanKeahlian" class="teks"></td>
-                    </tr>
+                    <td><textarea cols="39" rows="3" name="inputKeahlian" id="masukanKeahlian"></textarea></td>
+                
+                </tr>
 
                     <tr></tr>
                 <tr>
                     <td>Jumlah Mahasiswa Yang Dibutuhkan</td>
                 </tr>
-                <tr></tr>
+                
                 <tr></tr>
                 <tr>
                     <td><select class="kelas" id="pilihan">
