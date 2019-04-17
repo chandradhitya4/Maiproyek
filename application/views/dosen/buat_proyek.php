@@ -17,7 +17,10 @@
     cursor: pointer;
     width: 500px;
 }
-fieldset {color: #03A678}
+
+fieldset {color: #03A678;}
+
+
 .teks{
     width: 300px;
     height: 30px;
@@ -38,7 +41,11 @@ div {
 
 
 
+
 legend { font-size: 20pt; font-style:inherit; font-family: facifio; border-color: white}
+
+legend { font-size: 20pt; font-style:inherit; font-family: facifio }
+
         </style>
 
 <title>Membuat Proyek</title>
@@ -52,7 +59,7 @@ legend { font-size: 20pt; font-style:inherit; font-family: facifio; border-color
     <div class="BuatProyek">
             
             <tr></tr><tr></tr>
-            <fieldset style="width: 35%">
+        <fieldset style="width: 35%">
             <legend><b>MEMBUAT PROYEK</b></legend>
             <table border = "0" cellspacing="10" style="text-align:center">
                 <tr>
@@ -68,14 +75,18 @@ legend { font-size: 20pt; font-style:inherit; font-family: facifio; border-color
                 <tr>
                     <td>Universitas</td>
                 </tr>
+
                 <tr>
                     <td><input type="text" name="inputUniv" id="masukanUniv" class="teks"></td>
                 </tr>
 
+
                 <tr>
                     <td>Fakultas</td>
                 </tr>
-               
+
+                <tr></tr>
+
                 <tr></tr>
                 <tr>
                     <td><select class="kelas" id="pilihan">
@@ -95,6 +106,9 @@ legend { font-size: 20pt; font-style:inherit; font-family: facifio; border-color
                     <td>Jurusan</td>
                 </tr>
                
+
+                <tr></tr>
+
                 <tr></tr>
                 <tr>
                     <td><select class="kelas" id="pilihan">
@@ -105,6 +119,7 @@ legend { font-size: 20pt; font-style:inherit; font-family: facifio; border-color
                         <option>S1 Sistem Komputer</option>
                         <option>S2 Teknik Elektro</option>
                         <option>S1 Teknik Industri</option>
+
                         <option>S1 Sistem Informasi</option>        
                         <option>S2 Teknik Industri</option>
                         <option>S1 Rekayasa Perangkat Lunak</option>
@@ -113,19 +128,29 @@ legend { font-size: 20pt; font-style:inherit; font-family: facifio; border-color
                         <option>S2 Informatika</option>
 
 
+                        <option>S1 </option>            
 
                         </select>
                   
                 </tr>
                 <tr></tr>
+
+                <tr>
+                    <td><input type="text" name="inputUniv" id="masukanUniv" class="teks"></td>
                 
+                </tr>
+
                 <tr>
                     <td>Deskripsi Proyek</td>
                 </tr>
 
         
                 <tr>
+
                     <td><textarea cols="39" rows="7" name="textDeskripsi" id="Deskripsi"></textarea></td>
+
+                    <td><textarea cols="39" rows="5" name="textDeskripsi" id="Deskripsi"></textarea></td>
+
                 
                 </tr>
                 <tr>
@@ -134,7 +159,11 @@ legend { font-size: 20pt; font-style:inherit; font-family: facifio; border-color
 
                 <tr></tr>
                 <tr>
+
                     <td><textarea cols="39" rows="3" name="inputDeskripsi" id="masukanDeskripsi"></textarea></td>
+
+                    <td><input type="text" name="inputBidang" id="masukanBidang" class="teks"></td>
+
                 
                 </tr>
                 
@@ -144,15 +173,21 @@ legend { font-size: 20pt; font-style:inherit; font-family: facifio; border-color
                     </tr>
                     <tr></tr>
                     <tr>
+
                     <td><textarea cols="39" rows="3" name="inputKeahlian" id="masukanKeahlian"></textarea></td>
-                
-                </tr>
+
+    </tr>
+                        <td><input type="text" name="inputKeahlian" id="masukanKeahlian" class="teks"></td>
+                    </tr>
+
 
                     <tr></tr>
                 <tr>
                     <td>Jumlah Mahasiswa Yang Dibutuhkan</td>
                 </tr>
-                
+
+                <tr></tr>
+
                 <tr></tr>
                 <tr>
                     <td><select class="kelas" id="pilihan">
@@ -196,8 +231,9 @@ legend { font-size: 20pt; font-style:inherit; font-family: facifio; border-color
 
             </table>
 
-        </center>  
+        </center>
 
     </div>
+        </fieldset>
 </body>
 </html>
