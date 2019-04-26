@@ -4,7 +4,11 @@
 		<!-- Mobile Specific Meta -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<!-- Favicon-->
+
 		<link rel="icon" href="<?php echo base_url().'asset/img/icon.png'?>">
+
+		<link rel="shortcut icon" href="img/fav.png">
+
 		<!-- Author Meta -->
 		<meta name="author" content="codepixer">
 		<!-- Meta Description -->
@@ -56,7 +60,12 @@
 				        <ul class="nav-menu">
 				          <li class="btn"><a href="<?php echo base_url('Login/indexd');?>">Untuk Dosen</a></li>
 				          <li class=" btn btn-outline-success" style="color:#ffffff;"><a href="<?php echo base_url('Login/register');?>">Daftar</a></li>
-									<li class="btn btn-success" style="color:#fffff;"><a href="<?php echo base_url('Login/index');?>">Masuk</a></li>	
+
+									<li class="btn btn-success" style="color:#ffffff;"><a href="<?php echo base_url('Login/index');?>">Masuk</a></li>
+
+
+									
+
 				        </ul>
 				      </nav><!-- #nav-menu-container -->		    		
 			    	</div>
