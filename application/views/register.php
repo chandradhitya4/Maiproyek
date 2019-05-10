@@ -66,6 +66,7 @@
 							</div>
 							<div class="col-md-12 form-group">
 								<input type="password" class="form-control" id="name" name="password" placeholder="Password" >
+                                <span class="text-danger"><?php echo form_error('password'); ?></span>
                             </div>
                             <div class="col-md-12 form-group">
 								<input type="password" class="form-control" id="name"  placeholder="Konfirmasi Password" >

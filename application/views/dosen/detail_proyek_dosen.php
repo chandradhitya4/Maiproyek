@@ -79,8 +79,8 @@
 					<div class="row fullscreen align-items-center">
 							<div class="row">
 								<div style="margin-top :150px;">
-                                    <h3 class="text-uppercase" style="font-weight : 700; color :#03a678">Judul Proyek</h3> <!-- Judul Proyek -->
-                                    <h4 style="font-weight : 700; color :#03a678">Sedang Berjalan</h4> <br/> <!-- Judul Proyek -->
+                                    <h3 class="text-uppercase" style="font-weight : 700; color :#03a678"><?php echo $details->nama_proyek; ?></h3> <!-- Judul Proyek -->
+<!--                                    <h4 style="font-weight : 700; color :#03a678">Sedang Berjalan</h4> <br/> <!-- Judul Proyek -->
 								</div>
 							</div>
 					</div>
@@ -89,28 +89,31 @@
 							<div class="container">
 								<div class="card">
 									<div class="card-body"> <h5>Deskripsi </h5> 
-										<p> <br>Lorem ipsum dolor sit amet </p> <!--Deskripsi Proyek -->
+										<p> <br><?php echo $details->deskripsi; ?> </p> <!--Deskripsi Proyek -->
 									</div> 
 								</div>
 
-								<div class="card">
-									<div class="card-body"> <h5>Tentang Dosen </h5> 
-										<p> <br> Ahmad Mustofa </p> <!-- Tentang Dosen -->
-									</div>
-								</div>
 
-								<div class="card">
-									<div class="card-body"> <h5>Tawaran</h5> 
-										<h6> <br> Ahmad Mustofa </h6> <!-- Tawaran -->
-										<p> "Saya siap untuk membantu anda mengerjakan proyek anda" </p>
-									</div>
-									<div class="card-body">
-										<h6> <br> Ahmad Mustofa </h6> <!-- Tawaran -->
-										<p> "Saya siap untuk membantu anda mengerjakan proyek anda" </p>
-										<div class="text-center line"></div>
-									</div>
-								</div>
 
+                                <div class="card">
+                                    <div class="card-body"> <h6>Jurusan</h6>
+                                        <h7> <?php echo $details->jurusan; ?> </h7> <!-- Tawaran -->
+                                    </div>
+                                    <div class="card-body"> <h6>Fakultas</h6>
+                                        <h7> <?php echo $details->fakultas; ?> </h7> <!-- Tawaran -->
+                                    </div>
+                                    <div class="card-body"> <h6>Bidang</h6>
+                                        <h7> <?php echo $details->bidang; ?> </h7> <!-- Tawaran -->
+                                    </div>
+                                    <div class="card-body"> <h6>Keahlian</h6>
+                                        <h7> <?php echo $details->keahlian; ?> </h7> <!-- Tawaran -->
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-body"> <h5>Tentang Dosen </h5>
+                                        <p> <br> Ahmad Mustofa </p> <!-- Tentang Dosen -->
+                                    </div>
+                                </div>
 
 							</div>
 						</div>
